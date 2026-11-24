@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "dev.liquidglass.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MinecraftMixin",
+    "LivingEntityMixin",
+    "LevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

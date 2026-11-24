@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "liquid-glass",
+  "version": "${version}",
+  "name": "Liquid Glass",
+  "description": "Client-side visual mod: animated aurora background and a liquid-glass main menu. No gameplay changes, no server communication.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.liquidglass.LiquidGlassClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "liquid-glass.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
